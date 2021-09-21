@@ -44,8 +44,8 @@ int main() {
 			std::cout << "Excellent! You won!" << std::endl;
 			std::cout << "It took you " << tries << " tries." << std::endl;
 			std::cout << std::endl;
-			system("pause");
 		}
 	} while (entered_number != hidden_number);
+	system("pause");
 	return 0;
 }
