@@ -6,6 +6,7 @@ int main() {
 	const int MIN_NUMBER = 1;
 	const int MAX_NUMBER = 100;
 
+	srand(static_cast<unsigned int>(time(0)));
 	int hidden_number = rand() % MAX_NUMBER + MIN_NUMBER;
 	int entered_number;
 	int tries = 0;
